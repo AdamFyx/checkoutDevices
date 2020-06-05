@@ -1,0 +1,140 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.checkoutdevices"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" >
+11-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:5:5-7:23
+11-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:5:22-64
+12    </uses-permission>
+13    <!--     <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" -->
+14    <!-- tools:ignore="ProtectedPermissions"> -->
+15    <!--     </uses-permission> -->
+16    <!--     <uses-permission android:name="android.permission.CAMERA" > -->
+17    <!-- </uses-permission> -->
+18    <!--     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" > -->
+19    <!--     </uses-permission> -->
+20    <uses-permission android:name="android.permission.INTERNET" /> <!-- 网络权限 -->
+20-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:5:5-7:23
+20-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:5:22-64
+21    <uses-permission android:name="android.permission.VIBRATE" /> <!-- 震动权限 -->
+21-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:16:5-66
+21-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:16:22-63
+22    <uses-permission android:name="android.permission.CAMERA" /> <!-- 摄像头权限 -->
+22-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:17:5-65
+22-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:17:22-62
+23    <uses-feature android:name="android.hardware.camera.autofocus" />
+23-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:18:5-70
+23-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:18:19-67
+24
+25    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEM" />
+25-->[com.boneylink.sxiotsdk:sxiotsdk:1.4.12] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a40db423125037293e47967c6843ca2b\jetified-sxiotsdk-1.4.12\AndroidManifest.xml:12:5-83
+25-->[com.boneylink.sxiotsdk:sxiotsdk:1.4.12] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a40db423125037293e47967c6843ca2b\jetified-sxiotsdk-1.4.12\AndroidManifest.xml:12:22-80
+26    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+26-->[com.boneylink.sxiotsdk:sxiotsdk:1.4.12] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a40db423125037293e47967c6843ca2b\jetified-sxiotsdk-1.4.12\AndroidManifest.xml:13:5-81
+26-->[com.boneylink.sxiotsdk:sxiotsdk:1.4.12] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a40db423125037293e47967c6843ca2b\jetified-sxiotsdk-1.4.12\AndroidManifest.xml:13:22-78
+27    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+27-->[com.boneylink.sxiotsdk:sxiotsdk:1.4.12] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a40db423125037293e47967c6843ca2b\jetified-sxiotsdk-1.4.12\AndroidManifest.xml:14:5-80
+27-->[com.boneylink.sxiotsdk:sxiotsdk:1.4.12] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a40db423125037293e47967c6843ca2b\jetified-sxiotsdk-1.4.12\AndroidManifest.xml:14:22-77
+28    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+28-->[com.boneylink.sxiotsdk:sxiotsdk:1.4.12] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a40db423125037293e47967c6843ca2b\jetified-sxiotsdk-1.4.12\AndroidManifest.xml:15:5-76
+28-->[com.boneylink.sxiotsdk:sxiotsdk:1.4.12] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a40db423125037293e47967c6843ca2b\jetified-sxiotsdk-1.4.12\AndroidManifest.xml:15:22-73
+29    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+29-->[com.boneylink.sxiotsdk:sxiotsdk:1.4.12] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a40db423125037293e47967c6843ca2b\jetified-sxiotsdk-1.4.12\AndroidManifest.xml:16:5-76
+29-->[com.boneylink.sxiotsdk:sxiotsdk:1.4.12] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a40db423125037293e47967c6843ca2b\jetified-sxiotsdk-1.4.12\AndroidManifest.xml:16:22-73
+30    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+30-->[com.boneylink.sxiotsdk:sxiotsdk:1.4.12] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a40db423125037293e47967c6843ca2b\jetified-sxiotsdk-1.4.12\AndroidManifest.xml:17:5-86
+30-->[com.boneylink.sxiotsdk:sxiotsdk:1.4.12] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a40db423125037293e47967c6843ca2b\jetified-sxiotsdk-1.4.12\AndroidManifest.xml:17:22-83
+31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+31-->[com.boneylink.sxiotsdk:sxiotsdk:1.4.12] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a40db423125037293e47967c6843ca2b\jetified-sxiotsdk-1.4.12\AndroidManifest.xml:18:5-79
+31-->[com.boneylink.sxiotsdk:sxiotsdk:1.4.12] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a40db423125037293e47967c6843ca2b\jetified-sxiotsdk-1.4.12\AndroidManifest.xml:18:22-76
+32    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+32-->[com.boneylink.sxiotsdk:sxiotsdk:1.4.12] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a40db423125037293e47967c6843ca2b\jetified-sxiotsdk-1.4.12\AndroidManifest.xml:19:5-81
+32-->[com.boneylink.sxiotsdk:sxiotsdk:1.4.12] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a40db423125037293e47967c6843ca2b\jetified-sxiotsdk-1.4.12\AndroidManifest.xml:19:22-78
+33    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+33-->[com.boneylink.sxiotsdk:sxiotsdk:1.4.12] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a40db423125037293e47967c6843ca2b\jetified-sxiotsdk-1.4.12\AndroidManifest.xml:20:5-79
+33-->[com.boneylink.sxiotsdk:sxiotsdk:1.4.12] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a40db423125037293e47967c6843ca2b\jetified-sxiotsdk-1.4.12\AndroidManifest.xml:20:22-76
+34    <uses-permission android:name="android.permission.FLASHLIGHT" />
+34-->[cn.bingoogolapple:bga-qrcode-core:1.3.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e2761e1276cae80f30e397851cb16675\jetified-bga-qrcode-core-1.3.6\AndroidManifest.xml:10:5-69
+34-->[cn.bingoogolapple:bga-qrcode-core:1.3.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e2761e1276cae80f30e397851cb16675\jetified-bga-qrcode-core-1.3.6\AndroidManifest.xml:10:22-66
+35
+36    <uses-feature
+36-->[cn.bingoogolapple:bga-qrcode-core:1.3.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e2761e1276cae80f30e397851cb16675\jetified-bga-qrcode-core-1.3.6\AndroidManifest.xml:15:5-17:36
+37        android:name="android.hardware.camera.flash"
+37-->[cn.bingoogolapple:bga-qrcode-core:1.3.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e2761e1276cae80f30e397851cb16675\jetified-bga-qrcode-core-1.3.6\AndroidManifest.xml:16:9-53
+38        android:required="false" /> <!-- 自动聚焦权限 -->
+38-->[cn.bingoogolapple:bga-qrcode-core:1.3.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e2761e1276cae80f30e397851cb16675\jetified-bga-qrcode-core-1.3.6\AndroidManifest.xml:17:9-33
+39    <application
+39-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:19:5-39:19
+40        android:allowBackup="true"
+40-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:20:9-35
+41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+41-->[androidx.core:core:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\34b4ab0d8b65ac74ddd00d45b26dd963\core-1.1.0\AndroidManifest.xml:24:18-86
+42        android:debuggable="true"
+43        android:icon="@mipmap/ic_launcher"
+43-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:21:9-43
+44        android:label="@string/app_name"
+44-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:22:9-41
+45        android:roundIcon="@mipmap/ic_launcher_round"
+45-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:23:9-54
+46        android:supportsRtl="true"
+46-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:24:9-35
+47        android:testOnly="true"
+48        android:theme="@style/AppTheme"
+48-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:26:9-40
+49        android:usesCleartextTraffic="true" >
+49-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:25:9-44
+50        <activity android:name="com.example.checkoutdevices.MainActivity" >
+50-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:27:9-33:20
+50-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:27:19-47
+51            <intent-filter>
+51-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:28:13-32:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:29:17-69
+52-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:29:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:31:17-77
+54-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:31:27-74
+55            </intent-filter>
+56        </activity>
+57        <activity android:name="com.example.checkoutdevices.Activity.ManagerActivity" />
+57-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:35:9-98
+57-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:35:19-86
+58        <activity android:name="com.example.checkoutdevices.Activity.QrcodeActivity" />
+58-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:36:9-97
+58-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:36:19-85
+59        <activity android:name="com.example.checkoutdevices.Activity.SearchActivity" />
+59-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:37:9-70
+59-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:37:19-58
+60        <activity android:name="com.google.zxing.activity.CaptureActivity" />
+60-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:38:9-87
+60-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:38:19-75
+61
+62        <provider
+62-->[com.github.razerdp:BasePopup:2.2.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\29661fac0e8aac64be57cea24a94735d\jetified-BasePopup-2.2.1\AndroidManifest.xml:12:9-16:44
+63            android:name="razerdp.basepopup.BasePopupRuntimeTrojanProvider"
+63-->[com.github.razerdp:BasePopup:2.2.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\29661fac0e8aac64be57cea24a94735d\jetified-BasePopup-2.2.1\AndroidManifest.xml:13:13-76
+64            android:authorities="com.example.checkoutdevices.basepopup-trojan"
+64-->[com.github.razerdp:BasePopup:2.2.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\29661fac0e8aac64be57cea24a94735d\jetified-BasePopup-2.2.1\AndroidManifest.xml:14:13-68
+65            android:exported="false"
+65-->[com.github.razerdp:BasePopup:2.2.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\29661fac0e8aac64be57cea24a94735d\jetified-BasePopup-2.2.1\AndroidManifest.xml:15:13-37
+66            android:multiprocess="false" />
+66-->[com.github.razerdp:BasePopup:2.2.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\29661fac0e8aac64be57cea24a94735d\jetified-BasePopup-2.2.1\AndroidManifest.xml:16:13-41
+67
+68        <meta-data
+68-->[com.github.bumptech.glide:okhttp3-integration:1.4.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ae6af57ee66912d92b74d399f417884a\jetified-okhttp3-integration-1.4.0\AndroidManifest.xml:12:9-14:43
+69            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+69-->[com.github.bumptech.glide:okhttp3-integration:1.4.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ae6af57ee66912d92b74d399f417884a\jetified-okhttp3-integration-1.4.0\AndroidManifest.xml:13:13-84
+70            android:value="GlideModule" />
+70-->[com.github.bumptech.glide:okhttp3-integration:1.4.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ae6af57ee66912d92b74d399f417884a\jetified-okhttp3-integration-1.4.0\AndroidManifest.xml:14:13-40
+71    </application>
+72
+73</manifest>

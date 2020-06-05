@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:fitsSystemWindows="true">
+<!--    <com.njsxzn.demo.sxsampleapp.widgets.CommonTitleBar-->
+<!--        android:id="@+id/title_bar"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:ctb_title="设备列表"-->
+<!--        app:ctb_right_text="设置">-->
+<!--    </com.njsxzn.demo.sxsampleapp.widgets.CommonTitleBar>-->
+
+    <Button
+        android:id="@+id/search_gateway"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="扫描网关"/>
+
+<!--    <RelativeLayout-->
+<!--        android:layout_below="@+id/title_bar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+<!--        <androidx.recyclerview.widget.RecyclerView-->
+<!--            android:id="@+id/device_list_container"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"/>-->
+<!--    </RelativeLayout>-->
+</RelativeLayout>

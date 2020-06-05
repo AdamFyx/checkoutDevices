@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\raw_beep.ogg.flat",
+        "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\raw\\beep.ogg"
+    },
+    {
+        "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\layout_adapter.xml.flat",
+        "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\layout\\adapter.xml"
+    },
+    {
+        "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\layout_infos.xml.flat",
+        "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\layout\\infos.xml"
+    },
+    {
+        "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_scanner.xml.flat",
+        "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\layout\\activity_scanner.xml"
+    },
+    {
+        "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\layout_zxing.xml.flat",
+        "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\layout\\zxing.xml"
+    },
+    {
+        "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar_scanner.xml.flat",
+        "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\layout\\toolbar_scanner.xml"
+    },
+    {
+        "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\layout_login.xml.flat",
+        "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\layout\\login.xml"
+    },
+    {
+        "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_back.png.flat",
+        "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\drawable\\btn_back.png"
+    },
+    {
+        "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\layout_search.xml.flat",
+        "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\layout\\search.xml"
+    },
+    {
+        "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\drawable_flash_on.png.flat",
+        "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\drawable\\flash_on.png"
+    },
+    {
+        "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\drawable_flash_off.png.flat",
+        "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\drawable\\flash_off.png"
+    },
+    {
+        "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    }
+]

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="plantes">
+    <item>已同步</item>
+    <item>已绑二维码未同步</item>
+    <item>未绑二维码未同步</item>
+    </string-array>
+</resources>
