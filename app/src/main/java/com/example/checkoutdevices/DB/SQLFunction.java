@@ -5,6 +5,7 @@ import android.util.Log;
 
 import com.example.checkoutdevices.Bean.Devices;
 
+import java.net.CookieHandler;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -31,23 +32,6 @@ public class SQLFunction {
         String sql = "insert into devices (zkid,pin,zkversion,time,operator,zktype,zkfactory,issynchr,qrcode,isqrcode) values(?,?,?,?,?,?,?,?,?,?)";
         Object[] bindArgs = data;
         sqlManager.updateSQLite(sql, bindArgs);
-    }
-
-    /**
-     * 模糊查询
-     */
-    public static ArrayList<HashMap<String, String>> query(Context context, String where1) {
-        DBManager sqlManager = new DBManager(context);
-        ArrayList<HashMap<String, String>> list = new ArrayList<>();
-        String sql = "select * from devices where pin like ?";
-        if (where1 == null) {
-            list = sqlManager.querySQLite(sql, new String[]{"%"});
-        } else {
-            where1 = "%" + where1 + "%";
-            list = sqlManager.querySQLite(sql, new String[]{where1});
-        }
-        Log.d("SQLFunction", list.size() + "");
-        return list;
     }
 
     /*
@@ -86,7 +70,6 @@ public class SQLFunction {
     public static ArrayList<Devices> haveornoQrSyschr(Context context, String where1, String where2) {
         DBManager sqlManager = new DBManager(context);
         ArrayList<Devices> list = new ArrayList<>();
-        // String sql="select * from devices where issynchr =?";
         list = sqlManager.selectDevicesIsnotSynAndlinkQrcode(where1, where2);
         return list;
     }
@@ -118,6 +101,41 @@ public class SQLFunction {
         DBManager sqlManager = new DBManager(context);
         String sql = "update devices set issynchr=1 where zkid=?";
         sqlManager.updateSQLite(sql, data);
+    }
+
+    /**
+     * 更新数据未绑定改成已绑定二维码
+     */
+    public static void updateIsQrcodeBydid(Context context, Object[] data) {
+        helper = new DBHelper(context);
+        helper.getReadableDatabase();
+        DBManager sqlManager = new DBManager(context);
+        String sql = "update devices set isqrcode=1 where zkid=?";
+        sqlManager.updateSQLite(sql, data);
+    }
+
+    /**
+     * 根据zkid修改qrcode信息
+     */
+    public static void updateQrcodeByZkId(Context context, Object[] data) {
+        Log.d("SQLFunction", "根据zkid修改qrcode信息：" + data.toString());
+        DBManager sqlManager = new DBManager(context);
+        helper = new DBHelper(context);
+        helper.getWritableDatabase();
+        String sql = "update devices set  qrcode=? where zkid=?";
+        Object[] bindArgs = data;
+        sqlManager.updateSQLite(sql, bindArgs);
+    }
+
+    /**
+     * 根据id查询网关信息
+     */
+    public ArrayList<Devices> selectDevicesByzkId(Context context, String zkid) {
+        DBManager sqlManager = new DBManager(context);
+        helper = new DBHelper(context);
+        helper.getWritableDatabase();
+        ArrayList<Devices> list = sqlManager.selectDevicesByzkId(zkid);
+        return list;
     }
 
 }

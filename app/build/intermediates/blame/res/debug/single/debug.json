@@ -28,12 +28,28 @@
         "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\layout\\adapter.xml"
     },
     {
+        "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar_main.xml.flat",
+        "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\layout\\toolbar_main.xml"
+    },
+    {
+        "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\drawable_user.png.flat",
+        "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\drawable\\user.png"
+    },
+    {
         "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\layout_infos.xml.flat",
         "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\layout\\infos.xml"
     },
     {
+        "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sys.xml.flat",
+        "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\layout\\activity_sys.xml"
+    },
+    {
         "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sys.jpg.flat",
+        "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\drawable\\sys.jpg"
     },
     {
         "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
@@ -62,6 +78,10 @@
     {
         "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\drawable_lock.png.flat",
+        "source": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\src\\main\\res\\drawable\\lock.png"
     },
     {
         "merged": "D:\\Project\\Devices\\devices\\checkoutDevices\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",

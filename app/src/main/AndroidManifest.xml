@@ -36,6 +36,7 @@
         <activity android:name="com.example.checkoutdevices.Activity.QrcodeActivity"></activity>
         <activity android:name=".Activity.SearchActivity"></activity>
         <activity android:name="com.google.zxing.activity.CaptureActivity"></activity>
+        <activity android:name="com.google.zxing.activity.SYSActivity"></activity>
     </application>
 
 </manifest>

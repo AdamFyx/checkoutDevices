@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:2:1-41:12
+ADDED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:2:1-42:12
 MERGED from [com.boneylink.sxiotsdk:sxiotsdk:1.4.12] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a40db423125037293e47967c6843ca2b\jetified-sxiotsdk-1.4.12\AndroidManifest.xml:2:1-22:12
 MERGED from [com.trello:rxlifecycle-components:0.6.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a0fe03f49ef3e5cbc774bf7f779b2432\jetified-rxlifecycle-components-0.6.1\AndroidManifest.xml:13:1-19:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ef8a364a6a39421e69c96cf68eeb3e63\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -48,22 +48,22 @@ MERGED from [com.github.bumptech.glide:okhttp3-integration:1.4.0] C:\Users\Admin
 MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\41a4e79e93c43da2e247ca84b2efb51e\jetified-rxandroid-1.2.1\AndroidManifest.xml:15:1-21:12
 MERGED from [com.github.lzyzsd:jsbridge:1.0.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\02360c9e38381b7e9d892d531705c5c9\jetified-jsbridge-1.0.4\AndroidManifest.xml:2:1-16:12
 MERGED from [cn.bingoogolapple:bga-qrcode-core:1.3.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e2761e1276cae80f30e397851cb16675\jetified-bga-qrcode-core-1.3.6\AndroidManifest.xml:2:1-19:12
-INJECTED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:2:1-42:12
 	package
 		ADDED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:4:5-42
 		INJECTED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml
-		ADDED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:2:1-41:12
+		ADDED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:2:1-42:12
 		INJECTED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml
-		ADDED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:2:1-41:12
+		ADDED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:2:1-42:12
 		INJECTED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:2:11-69
@@ -90,7 +90,7 @@ MERGED from [cn.bingoogolapple:bga-qrcode-core:1.3.6] C:\Users\Administrator\.gr
 	android:name
 		ADDED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:18:19-67
 application
-ADDED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:19:5-39:19
+ADDED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:19:5-40:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\380cbbd0623e9b22e21961fc6ec82b14\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\380cbbd0623e9b22e21961fc6ec82b14\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [com.github.razerdp:BasePopup:2.2.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\29661fac0e8aac64be57cea24a94735d\jetified-BasePopup-2.2.1\AndroidManifest.xml:11:5-17:19
@@ -149,6 +149,10 @@ activity#com.google.zxing.activity.CaptureActivity
 ADDED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:38:9-87
 	android:name
 		ADDED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:38:19-75
+activity#com.google.zxing.activity.SYSActivity
+ADDED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:39:9-83
+	android:name
+		ADDED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:39:19-71
 uses-sdk
 INJECTED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml

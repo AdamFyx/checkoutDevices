@@ -23,6 +23,8 @@
             android:layout_width="0dp"
             android:text="出库登记">
         </Button>
+
+
         <Button
             android:id="@+id/quit"
             android:layout_weight="1"
@@ -43,6 +45,7 @@
             android:layout_gravity="center_horizontal"
             android:text="首页"
             android:textSize="30dp" />
+
         <TextView
             android:id="@+id/welcome"
             android:layout_width="wrap_content"
@@ -62,6 +65,8 @@
             android:layout_gravity="center_horizontal"
             android:text="出库登记"
             android:textSize="30dp" />
+
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

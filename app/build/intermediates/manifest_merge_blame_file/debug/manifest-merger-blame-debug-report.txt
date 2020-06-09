@@ -72,7 +72,7 @@
 38        android:required="false" /> <!-- 自动聚焦权限 -->
 38-->[cn.bingoogolapple:bga-qrcode-core:1.3.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e2761e1276cae80f30e397851cb16675\jetified-bga-qrcode-core-1.3.6\AndroidManifest.xml:17:9-33
 39    <application
-39-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:19:5-39:19
+39-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:19:5-40:19
 40        android:allowBackup="true"
 40-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:20:9-35
 41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -117,24 +117,27 @@
 60        <activity android:name="com.google.zxing.activity.CaptureActivity" />
 60-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:38:9-87
 60-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:38:19-75
-61
-62        <provider
-62-->[com.github.razerdp:BasePopup:2.2.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\29661fac0e8aac64be57cea24a94735d\jetified-BasePopup-2.2.1\AndroidManifest.xml:12:9-16:44
-63            android:name="razerdp.basepopup.BasePopupRuntimeTrojanProvider"
-63-->[com.github.razerdp:BasePopup:2.2.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\29661fac0e8aac64be57cea24a94735d\jetified-BasePopup-2.2.1\AndroidManifest.xml:13:13-76
-64            android:authorities="com.example.checkoutdevices.basepopup-trojan"
-64-->[com.github.razerdp:BasePopup:2.2.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\29661fac0e8aac64be57cea24a94735d\jetified-BasePopup-2.2.1\AndroidManifest.xml:14:13-68
-65            android:exported="false"
-65-->[com.github.razerdp:BasePopup:2.2.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\29661fac0e8aac64be57cea24a94735d\jetified-BasePopup-2.2.1\AndroidManifest.xml:15:13-37
-66            android:multiprocess="false" />
-66-->[com.github.razerdp:BasePopup:2.2.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\29661fac0e8aac64be57cea24a94735d\jetified-BasePopup-2.2.1\AndroidManifest.xml:16:13-41
-67
-68        <meta-data
-68-->[com.github.bumptech.glide:okhttp3-integration:1.4.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ae6af57ee66912d92b74d399f417884a\jetified-okhttp3-integration-1.4.0\AndroidManifest.xml:12:9-14:43
-69            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
-69-->[com.github.bumptech.glide:okhttp3-integration:1.4.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ae6af57ee66912d92b74d399f417884a\jetified-okhttp3-integration-1.4.0\AndroidManifest.xml:13:13-84
-70            android:value="GlideModule" />
-70-->[com.github.bumptech.glide:okhttp3-integration:1.4.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ae6af57ee66912d92b74d399f417884a\jetified-okhttp3-integration-1.4.0\AndroidManifest.xml:14:13-40
-71    </application>
-72
-73</manifest>
+61        <activity android:name="com.google.zxing.activity.SYSActivity" />
+61-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:39:9-83
+61-->D:\Project\Devices\devices\checkoutDevices\app\src\main\AndroidManifest.xml:39:19-71
+62
+63        <provider
+63-->[com.github.razerdp:BasePopup:2.2.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\29661fac0e8aac64be57cea24a94735d\jetified-BasePopup-2.2.1\AndroidManifest.xml:12:9-16:44
+64            android:name="razerdp.basepopup.BasePopupRuntimeTrojanProvider"
+64-->[com.github.razerdp:BasePopup:2.2.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\29661fac0e8aac64be57cea24a94735d\jetified-BasePopup-2.2.1\AndroidManifest.xml:13:13-76
+65            android:authorities="com.example.checkoutdevices.basepopup-trojan"
+65-->[com.github.razerdp:BasePopup:2.2.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\29661fac0e8aac64be57cea24a94735d\jetified-BasePopup-2.2.1\AndroidManifest.xml:14:13-68
+66            android:exported="false"
+66-->[com.github.razerdp:BasePopup:2.2.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\29661fac0e8aac64be57cea24a94735d\jetified-BasePopup-2.2.1\AndroidManifest.xml:15:13-37
+67            android:multiprocess="false" />
+67-->[com.github.razerdp:BasePopup:2.2.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\29661fac0e8aac64be57cea24a94735d\jetified-BasePopup-2.2.1\AndroidManifest.xml:16:13-41
+68
+69        <meta-data
+69-->[com.github.bumptech.glide:okhttp3-integration:1.4.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ae6af57ee66912d92b74d399f417884a\jetified-okhttp3-integration-1.4.0\AndroidManifest.xml:12:9-14:43
+70            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+70-->[com.github.bumptech.glide:okhttp3-integration:1.4.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ae6af57ee66912d92b74d399f417884a\jetified-okhttp3-integration-1.4.0\AndroidManifest.xml:13:13-84
+71            android:value="GlideModule" />
+71-->[com.github.bumptech.glide:okhttp3-integration:1.4.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ae6af57ee66912d92b74d399f417884a\jetified-okhttp3-integration-1.4.0\AndroidManifest.xml:14:13-40
+72    </application>
+73
+74</manifest>

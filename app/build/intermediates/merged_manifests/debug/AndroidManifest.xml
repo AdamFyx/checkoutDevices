@@ -58,6 +58,7 @@
         <activity android:name="com.example.checkoutdevices.Activity.QrcodeActivity" />
         <activity android:name="com.example.checkoutdevices.Activity.SearchActivity" />
         <activity android:name="com.google.zxing.activity.CaptureActivity" />
+        <activity android:name="com.google.zxing.activity.SYSActivity" />
 
         <provider
             android:name="razerdp.basepopup.BasePopupRuntimeTrojanProvider"

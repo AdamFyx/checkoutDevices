@@ -26,6 +26,7 @@ public class DBManager {
      * sql为操作语句 bindArgs为操作传递参数
      */
     public boolean updateSQLite(String sql, Object[] bindArgs) {
+        Log.d("Dbmanager", sql + ";" + bindArgs);
         boolean isSuccess = false;
         try {
             sqLiteDatabase.execSQL(sql, bindArgs);
@@ -89,10 +90,10 @@ public class DBManager {
                 String time = cursor.getString(cursor.getColumnIndex("time"));
                 String operator = cursor.getString(cursor.getColumnIndex("operator"));
 
-                String type=cursor.getString(cursor.getColumnIndex("zktype"));
-                String firm =cursor.getString(cursor.getColumnIndex("zkfactory"));
-                String issynchr=cursor.getString(cursor.getColumnIndex("issynchr"));
-                String qrcode=cursor.getString(cursor.getColumnIndex("qrcode"));
+                String type = cursor.getString(cursor.getColumnIndex("zktype"));
+                String firm = cursor.getString(cursor.getColumnIndex("zkfactory"));
+                String issynchr = cursor.getString(cursor.getColumnIndex("issynchr"));
+                String qrcode = cursor.getString(cursor.getColumnIndex("qrcode"));
 
                 Devices devices = new Devices();
                 devices.setZkId(d_id);
@@ -116,10 +117,10 @@ public class DBManager {
     /**
      * 查询没有被同步的网关数据
      */
-    public ArrayList<Devices> selectDevicesIsNotSyn(String  issynchr) {
-        String[]columns={"zkid","pin","zkversion","time","operator","zktype","zkfactory"};
-        String [] selectionArgs={issynchr};
-        Cursor cursor = sqLiteDatabase.query("devices", columns, "issynchr"+"=?", selectionArgs, null, null, null, null);
+    public ArrayList<Devices> selectDevicesIsNotSyn(String issynchr) {
+        String[] columns = {"zkid", "pin", "zkversion", "time", "operator", "zktype", "zkfactory","qrcode"};
+        String[] selectionArgs = {issynchr};
+        Cursor cursor = sqLiteDatabase.query("devices", columns, "issynchr" + "=?", selectionArgs, null, null, null, null);
         ArrayList<Devices> list = new ArrayList<Devices>();
         if (cursor.getCount() > 0) {
             //移动到首位
@@ -129,13 +130,20 @@ public class DBManager {
                 String ping = cursor.getString(cursor.getColumnIndex("pin"));
                 String version = cursor.getString(cursor.getColumnIndex("zkversion"));
                 String time = cursor.getString(cursor.getColumnIndex("time"));
+
                 String operator = cursor.getString(cursor.getColumnIndex("operator"));
+                String type=cursor.getString(cursor.getColumnIndex("zktype"));
+                String factory=cursor.getString(cursor.getColumnIndex("zkfactory"));
+                String qrcode=cursor.getString(cursor.getColumnIndex("qrcode"));
                 Devices devices = new Devices();
                 devices.setZkId(d_id);
                 devices.setPin(ping);
                 devices.setZkVersion(version);
                 devices.setTime(time);
                 devices.setOperator(operator);
+                devices.setQrcode(qrcode);
+                devices.setZkType(type);
+                devices.setZkFactory(factory);
                 list.add(devices);
                 //移动到下一位
                 cursor.moveToNext();
@@ -148,10 +156,10 @@ public class DBManager {
     /**
      * 查询是否被同步的是否关联过二维码的网关数据
      */
-    public ArrayList<Devices> selectDevicesIsnotSynAndlinkQrcode(String  where1,String where2) {
-        String[]columns={"zkid","pin","zkversion","time","operator","zktype","zkfactory","issynchr","qrcode"};
-        String [] selectionArgs={where1,where2};
-        Cursor cursor = sqLiteDatabase.query("devices", columns, "issynchr"+"=?"+"and isqrcode =?", selectionArgs, null, null, null, null);
+    public ArrayList<Devices> selectDevicesIsnotSynAndlinkQrcode(String where1, String where2) {
+        String[] columns = {"zkid", "pin", "zkversion", "time", "operator", "zktype", "zkfactory", "issynchr", "qrcode"};
+        String[] selectionArgs = {where1, where2};
+        Cursor cursor = sqLiteDatabase.query("devices", columns, "issynchr" + "=?" + "and isqrcode =?", selectionArgs, null, null, null, null);
         ArrayList<Devices> list = new ArrayList<Devices>();
         if (cursor.getCount() > 0) {
             //移动到首位
@@ -161,9 +169,10 @@ public class DBManager {
                 String ping = cursor.getString(cursor.getColumnIndex("pin"));
                 String version = cursor.getString(cursor.getColumnIndex("zkversion"));
                 String time = cursor.getString(cursor.getColumnIndex("time"));
+                String type=cursor.getString(cursor.getColumnIndex("zktype"));
                 String operator = cursor.getString(cursor.getColumnIndex("operator"));
-                String issynchr=cursor.getString(cursor.getColumnIndex("issynchr"));
-                String qrcode=cursor.getString(cursor.getColumnIndex("qrcode"));
+                String issynchr = cursor.getString(cursor.getColumnIndex("issynchr"));
+                String qrcode = cursor.getString(cursor.getColumnIndex("qrcode"));
                 Devices devices = new Devices();
                 devices.setZkId(d_id);
                 devices.setPin(ping);
@@ -172,6 +181,7 @@ public class DBManager {
                 devices.setOperator(operator);
                 devices.setIssynchr(issynchr);
                 devices.setQrcode(qrcode);
+                devices.setZkType(type);
                 list.add(devices);
                 //移动到下一位
                 cursor.moveToNext();
@@ -181,4 +191,42 @@ public class DBManager {
         return list;
     }
 
+    /**
+     * 根据网关id查询数据库是否已经存在此网关
+     */
+    public ArrayList<Devices> selectDevicesByzkId(String zkid) {
+        String[] columns = {"zkid", "pin", "zkversion", "time", "operator", "zktype", "zkfactory", "qrcode"};
+        String[] selectionArgs = {zkid};
+        Cursor cursor = sqLiteDatabase.query("devices", columns, "zkid" + "=?", selectionArgs, null, null, null, null);
+        ArrayList<Devices> list = new ArrayList<Devices>();
+        if (cursor.getCount() > 0) {
+            //移动到首位
+            cursor.moveToFirst();
+            for (int i = 0; i < cursor.getCount(); i++) {
+                String d_id = cursor.getString(cursor.getColumnIndex("zkid"));
+                String ping = cursor.getString(cursor.getColumnIndex("pin"));
+                String version = cursor.getString(cursor.getColumnIndex("zkversion"));
+                String time = cursor.getString(cursor.getColumnIndex("time"));
+
+                String operator = cursor.getString(cursor.getColumnIndex("operator"));
+                String qrcode = cursor.getString(cursor.getColumnIndex("qrcode"));
+                String type=cursor.getString(cursor.getColumnIndex("zktype"));
+                String factory=cursor.getString(cursor.getColumnIndex("zkfactory"));
+                Devices devices = new Devices();
+                devices.setZkId(d_id);
+                devices.setPin(ping);
+                devices.setZkVersion(version);
+                devices.setTime(time);
+                devices.setOperator(operator);
+                devices.setQrcode(qrcode);
+                devices.setZkType(type);
+                devices.setZkFactory(factory);
+                list.add(devices);
+                //移动到下一位
+                cursor.moveToNext();
+            }
+        }
+        cursor.close();
+        return list;
+    }
 }
